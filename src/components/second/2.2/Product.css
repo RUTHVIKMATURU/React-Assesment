@@ -1,0 +1,40 @@
+.product{
+  width: 300px;
+  background-color: rgb(209, 243, 243);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3{
+  font-size: 20px;
+}
+img{
+  border-radius: 16px;
+  width: 100%;
+  height: 250px;
+}
+p{
+  font-size: 19px;
+}
+.rating{
+  display: flex;
+  gap: 3px;
+}
+.price{
+  color: crimson;
+  animation: blink 1.2s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: darkorange;
+  }
+  50% {
+    color: darkorange;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "6ea6",
+      "username": "RUTHVIK1108",
+      "password": "123456",
+      "email": "ruthvik0811@gmail.com",
+      "DOB": "2025-01-01"
+    },
+    {
+      "id": "09bf",
+      "username": "RUTHVIK",
+      "password": "ruthvk",
+      "email": "matururuthvik@gmail.com",
+      "DOB": "2025-01-15"
+    },
+    {
+      "id": "d407",
+      "username": "ravi",
+      "password": "ravi11",
+      "email": "ravi@gmail.com",
+      "DOB": "2011-08-11"
+    }
+  ]
+}

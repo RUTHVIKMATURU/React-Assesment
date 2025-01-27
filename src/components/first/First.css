@@ -1,0 +1,39 @@
+/* employee page styling */
+.employee {
+  width: 400px;
+  margin: 150px auto;
+  user-select: none;
+}
+
+/* employee table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* row styling */
+.employee tbody tr:nth-child(even) {
+  background-color: #bae4f75d;
+}
+
+/* body elements styling */
+.employee td{
+  padding: 10px;
+}
+
+/* row styling */
+.employee tr:hover:nth-child(even){
+  background-color: #09e051;
+  cursor: pointer;
+}
+.employee tr:hover:nth-child(odd){
+  background-color: #43d8ec;
+  cursor: pointer;
+}
+
+/*head elements styling */
+.employee th {
+  padding: 10px;
+  background-color: #f76c26;
+  font-weight: bold;
+}

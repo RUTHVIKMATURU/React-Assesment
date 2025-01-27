@@ -1,0 +1,23 @@
+.star-rating {
+  display: flex;
+}
+
+.star {
+  font-size: 24px;
+  margin-right: 5px;
+  position: relative;
+  color: gold;
+}
+
+.star.empty {
+  color: lightgray;
+}
+
+.star.half::before {
+  content: '\2605';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: gold;
+}

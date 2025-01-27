@@ -1,0 +1,22 @@
+.box{
+  width: 1000px;
+  margin: 100px auto;
+}
+.content {
+  background-image: url(https://img.freepik.com/free-vector/gradient-hexagonal-background_79603-1629.jpg);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding:  50px 40px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 60%;
+  color: white;
+}
+.para{
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+.image{
+  width: 40%;
+}

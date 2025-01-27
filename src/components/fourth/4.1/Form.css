@@ -1,0 +1,92 @@
+.main{
+  background: linear-gradient(to bottom, rgb(134, 35, 154), #e24a68);
+  min-height: 664px;
+  position: relative;
+}
+form {
+  position: absolute;
+  top: 40px;
+  left: 25%;
+  width: 600px;
+  padding: 40px;
+  color: #0000006d;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+.upperhalf{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+  width: 225px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.gender {
+  margin-bottom: 8px;
+}
+
+.gender label {
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+input[type="radio"] {
+  margin-left: 20px;
+  margin-right: 2px;
+}
+
+div {
+  margin-bottom: 16px;
+}
+
+button[type="submit"]{
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #2371e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #094e79;
+}
+.subject {
+  margin-bottom: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+option {
+  padding: 10px;
+}
